@@ -1,0 +1,11 @@
+FROM ubintu:20.04
+
+WORKDIR /usr/src
+
+COPY app.py
+
+ENV API_KEY=hi_mom
+
+EXPOSE 8000
+
+CMD ["echo", "Docker is easy -V-"]

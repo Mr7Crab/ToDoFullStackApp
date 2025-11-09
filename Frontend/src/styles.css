@@ -1,0 +1,4 @@
+* { box-sizing: border-box}
+body { margin: 0; background: #f7f7f7; }
+#root > div { background: white; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,.06); }
+button { cursor: pointer; }
